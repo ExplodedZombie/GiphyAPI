@@ -1,0 +1,45 @@
+#container {
+	background-color: black;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+#search_div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+input[type="text"] {
+	font-size: 12px;
+	border-radius: 4px;
+	width: 200px;
+	margin-right: 5px;
+}
+
+#search_button {
+	background: lightgray;
+	height: 40px;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#remove_button {
+	background: orange;
+	height: 40px;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+#search_results {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
